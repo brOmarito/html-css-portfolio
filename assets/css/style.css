@@ -67,6 +67,20 @@ header ul {
     margin-bottom: 50px;
 }
 
+#banner-pic-section {
+    width: 100%;
+    max-height: 100vh;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+#banner-pic {
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+    /* height: 2%; */
+}
+
 hr {
     clear: both;
     border-top: 5px solid;
@@ -98,7 +112,17 @@ hr:nth-of-type(odd) {
     width: 20%;
 }
 
-.left-body-content, .right-body-content {
+.content-slot-header h2 {
+    font-size: 40px;
+    width: 100%;
+}
+
+.content-slot-header h4 {
+    font-size: 25px;
+    width: 100%;
+}
+
+.content-slot {
     clear: both;
     padding-top: 2%;
     display: flex;
@@ -159,6 +183,13 @@ hr:nth-of-type(odd) {
     justify-content: space-around;
 }
 
+.project-card-link {
+    text-decoration: inherit;
+    color: inherit;
+    width: 100%;
+    align-items: inherit;
+}
+
 .project-card-default {
     border: 2px solid var(--cyan);
     border-radius: 5px;
@@ -173,6 +204,12 @@ hr:nth-of-type(odd) {
     width: 50%;
     text-align: center;
     font-size: 25px;
+}
+
+.project-card-main a,
+.project-card-main a:visited {
+    text-decoration: none;
+    color: inherit;
 }
 
 .project-card-main img {
@@ -195,7 +232,7 @@ hr:nth-of-type(odd) {
     position: relative;
 }
 
-.project-card-small h4 {
+.project-card-small h3 {
     padding-top: 30%;
     font-weight: bolder;
     display: none;
@@ -212,7 +249,7 @@ hr:nth-of-type(odd) {
     opacity: 75%;
 }
 
-.project-card-small:hover h4 {
+.project-card-small:hover h3 {
     display: block;
 }
 
@@ -236,6 +273,15 @@ hr:nth-of-type(odd) {
     background-image: url("../images/Firebending_emblem.png");
 }
 
+.project-links {
+    position:absolute; 
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+
 footer {
     background-color: var(--carnelian);
     clear: both;
@@ -245,7 +291,7 @@ footer {
     width: 100%;
 }
 
-@media only screen and (max-width:800px) {
+@media (max-width:800px) {
     header h1,
     header ul {
         width: 100%;
@@ -253,7 +299,7 @@ footer {
     }
 }
 
-@media only screen and (max-width:550px) {
+@media (max-width:550px) {
     .content-slot-header,
     .content-slot-meat,
     .content-slot p,
@@ -275,17 +321,25 @@ footer {
         margin-top: 15%;
     }
 
-    .project-card-main {
-        order: 1;
-        display: block;
-        font-size: 25px;
+    .content-slot,
+    .content-slot-meat {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
     }
 
-    .horizontal-projects {
-        order: 2;
-        width: 50%;
-        height: auto;
-        display: block;
+    .project-container {
+        justify-content: space-around;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .project-card-main h3 {
+        font-size: 15px;
+    }
+
+    .project-card-small h3 {
+        padding-top: 20%;
     }
 
     .project-card-main img {
