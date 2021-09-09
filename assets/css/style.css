@@ -11,6 +11,11 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: "Spider-Man";
+    src: url(../fonts/TheAmazingSpider-Man.woff) format("woff");
+}
+
 body {
     background-color: #fffef9;
 }
@@ -20,7 +25,7 @@ header {
     background-color: var(--cobalt);
     color: white;
     font-size: 20px;
-    font-family: 'THE AMAZING SPIDER-MAN', sans-serif;
+    font-family: 'Spider-Man', sans-serif;
     display: flex;
     flex-wrap: wrap;
 }
