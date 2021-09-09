@@ -18,7 +18,7 @@ Obviously, there's always room for improvement and I will likely continue to pla
 * Last but not least, I stumbled a little with the nested flexbox in the Projects section. I was hoping to get them to wrap to where the main would be first (found how to do this but it squished the others) and then the horizontal projects would be two per line after.
 
 ## Notes
-* I mention in my notes of finding a new way to make a whole div which was my project cards as a link. I would have never thought of creating a span that would provide the functionality of the link but great to know!
+* I mention in my credits about finding a new way to make a whole div, in this case my project cards, a link and I would have never thought of creating a span that would provide the functionality of the link and not have to alter any of my existing CSS. Great to know! One thing to note, it did not work for the main card as the image takes up a lot more space, it's just hidden. This meant that the span idea covered all of where the image would be and caused issues with the link spilling all over the page.
 * A part of me wanted to make a very modern and mainstream site but I also wanted to add some of my personality into my portfolio. I will have more opportunities to create more mainstream (is that the right word) designed websites through other projects or freelance work but since this one is a bit closer to heart ❤️.
 
 ## Credits
