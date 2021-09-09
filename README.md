@@ -1,5 +1,5 @@
 # html-css-portfolio
-The following project is meant to serve as a portfolio to represent familiarity with pure HTML and CSS. Bootstrap, JavaScript, and all that fancy stuff were not used in making this portfolio page in order to practice what is available only through using CSS and HTML. It contains a quick about me, some of the projects/applications I have worked on, and some means to contact me (No phone number just for privacy sake but can always reach out on something like Discord).🕸️
+The following project is meant to serve as a portfolio to represent familiarity with pure HTML and CSS. Bootstrap, JavaScript, and all that fancy stuff were not used in making this portfolio page in order to practice what is available only through using CSS and HTML. I believe my other work will speak for itself so took this opportunity to also throw some of my personality onto my portfolio. It contains a quick about me, some of the projects/applications I have worked on, and some means to contact me (No phone number just for privacy sake but can always reach out on something like Discord).🕸️
 
 ## What was the point?
 There were two main reasons I worked on this portfolio:
