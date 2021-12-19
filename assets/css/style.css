@@ -272,11 +272,11 @@ hr:nth-of-type(odd) {
 }
 
 #proj-3::before {
-    background-image: url("../images/day-planner-live.PNG");
+    background-image: url("../images/flasher-logo.png");
 }
 
 #proj-4::before {
-    background-image: url("../images/day-planner-repo.PNG");
+    background-image: url("../images/flasher-homepage.png");
 }
 
 .project-links {
